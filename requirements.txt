@@ -1,8 +1,8 @@
-# LiveKit Agents SDK with plugin support
-livekit-agents[openai,silero,deepgram,cartesia]~=0.9.0
+# LiveKit Agents SDK with plugin support - using version 1.1.7 (same as local)
+livekit-agents[openai,deepgram,cartesia]>=1.1.7
 
 # Additional plugins for TTS voice options
-livekit-plugins-elevenlabs~=0.7.0
+livekit-plugins-elevenlabs>=0.7.0
 
 # Twilio for outbound calling
 twilio~=9.0.0
